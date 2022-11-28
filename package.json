@@ -78,7 +78,6 @@
     "cross-env": "^7.0.3"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0",
   "main": "index.js",
   "repository": "git@github.com:agus08/sample-design-system.git",
   "author": "agus08 <ghozi.setiawan@gmail.com>",
