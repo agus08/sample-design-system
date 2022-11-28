@@ -1,7 +1,6 @@
 {
-  "name": "sample-design-system",
+  "name": "@suganaw/sample-design-system",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,7 +19,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=c6a2a3861586"
+    "chromatic": "npx chromatic --project-token=c6a2a3861586",
+    "release": "auto shipit --base-branch=main"
   },
   "eslintConfig": {
     "extends": [
@@ -78,7 +78,7 @@
     "cross-env": "^7.0.3"
   },
   "readme": "ERROR: No README data found!",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:agus08/sample-design-system.git",
   "author": "agus08 <ghozi.setiawan@gmail.com>",
   "license": "MIT"
